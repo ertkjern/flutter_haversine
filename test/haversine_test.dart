@@ -1,4 +1,4 @@
-import 'package:haversine/haversine_distance.dart';
+import 'package:haversine_distance/haversine_distance.dart';
 import 'package:test/test.dart';
 
 void main() {
