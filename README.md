@@ -8,7 +8,7 @@ The following project is a simple Dart package to calculate the distance between
 
 ```dart
 /// Import the package
-import 'package:haversine/haversine.dart';
+import 'package:haversine_distance/haversine_distance.dart';
 
 /// Create the two location objects you want to calculate the distance between.
 /// The Location object is included in the package. 
@@ -16,7 +16,7 @@ final startCoordinate = new Location(60.389739, 5.322323);
 final endCoordinate = new Location(60.393032, 5.327248);
 
 /// Create a new haversine object
-final haversineDistance= HaversineDistance();
+final haversineDistance = HaversineDistance();
 
 /// Then calculate the distance between the two location objects and set a unit.
 /// You can select between KM/MILES/METERS/NMI
