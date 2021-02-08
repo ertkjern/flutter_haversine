@@ -1,8 +1,8 @@
-name: haversine
+name: haversine_distance
 description: A flutter pacakge to calculate the distance between two coordinates
 version: 0.0.1
 author: Ørjan Ertkjern
-homepage:
+homepage: https://github.com/ertkjern
 
 environment:
   sdk: ">=2.7.0 <3.0.0"

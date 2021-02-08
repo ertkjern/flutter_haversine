@@ -1,4 +1,4 @@
-# Haversine
+# Haversine_Distance
 
 A simple flutter package to calculate the distance between two coordinates
 
