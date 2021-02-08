@@ -20,7 +20,7 @@ class RADII {
 
 enum Unit { KM, MILE, METER, NMI }
 
-class Haversine {
+class HaversineDistance {
   final RADII radii = new RADII(6371, 3960, 6371000, 3440);
 
   double toRad(double num) {

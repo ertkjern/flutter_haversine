@@ -16,11 +16,11 @@ final startCoordinate = new Location(60.389739, 5.322323);
 final endCoordinate = new Location(60.393032, 5.327248);
 
 /// Create a new haversine object
-final haversine = Haversine();
+final haversineDistance= HaversineDistance();
 
 /// Then calculate the distance between the two location objects and set a unit.
 /// You can select between KM/MILES/METERS/NMI
-haversine.haversine(startCoordinate, endCoordinate, Unit.KM).floor();
+haversineDistance.haversine(startCoordinate, endCoordinate, Unit.KM).floor();
  ```
 
  ## API
