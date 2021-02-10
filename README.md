@@ -1,3 +1,8 @@
+
+
+[![pub package](https://img.shields.io/pub/v/haversine_distance.svg)](https://pub.dev/packages/haversine_distance)
+
+
 # Haversine_Distance
 
 A simple flutter package to calculate the distance between two coordinates
