@@ -1,3 +1,7 @@
+## [1.2.0] Null-safety
+
+- Updated relevant packages to support Null Safety for Dart 2.0
+
 ## [1.1.0] - Added example file
 
 Added example project to improve pub.dev points. Pretty much the same as in test folder.
