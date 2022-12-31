@@ -63,7 +63,6 @@ class HaversineDistance {
     final lat2 = endCoordinates.latitude;
     final lon1 = startCoordinates.longitude;
     final lon2 = endCoordinates.longitude;
-    const R = 6371e3;
 
     final y = sin(lon2 - lon1) * cos(lat2);
     final x = cos(lat1) * sin(lat2) - sin(lat1) * cos(lat2) * cos(lon2 - lon1);
