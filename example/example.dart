@@ -15,4 +15,9 @@ main() {
       haversineDistance.haversine(startCoordinate, endCoordinate, Unit.KM);
 
   print('Distance between start and end coordinate is: ${distanceInKm} km.');
+
+  final bearingInDegrees =
+      haversineDistance.bearing(startCoordinate, endCoordinate);
+
+  print('Bearing from start to end coordinate is $bearingInDegrees');
 }
