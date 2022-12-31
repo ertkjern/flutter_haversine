@@ -34,6 +34,12 @@ void main() {
     expect(distance, 455);
   });
 
+  test('Bergen - Oslo bearing', () {
+    final haversine = HaversineDistance();
+    final bearing = haversine.bearing(startCoordinate2, endCoordinate2);
+    expect(bearing, 107.54903361738099);
+  });
+
   test('Bergen - Oslo in different formats', () {
     final haversineDistance = HaversineDistance();
 

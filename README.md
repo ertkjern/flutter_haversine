@@ -26,6 +26,9 @@ final haversineDistance = HaversineDistance();
 /// Then calculate the distance between the two location objects and set a unit.
 /// You can select between KM/MILES/METERS/NMI
 haversineDistance.haversine(startCoordinate, endCoordinate, Unit.KM).floor();
+
+/// Then calculate the bearing in degrees from the start to the end location
+haversineDistance.bearing(startCoordinate, endCoordinate);
  ```
 
  ## API

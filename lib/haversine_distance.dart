@@ -56,4 +56,18 @@ class HaversineDistance {
 
     return R * c;
   }
+
+  /// the bearing in degrees
+  double bearing(Location startCoordinates, Location endCoordinates) {
+    final lat1 = startCoordinates.latitude;
+    final lat2 = endCoordinates.latitude;
+    final lon1 = startCoordinates.longitude;
+    final lon2 = endCoordinates.longitude;
+    const R = 6371e3;
+
+    final y = sin(lon2 - lon1) * cos(lat2);
+    final x = cos(lat1) * sin(lat2) - sin(lat1) * cos(lat2) * cos(lon2 - lon1);
+    final lambda = atan2(y, x);
+    return (lambda * 180 / pi + 360) % 360; // in degrees
+  }
 }
